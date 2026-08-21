@@ -7,7 +7,10 @@ Python simulations and visualizations inspired by probability theory and mathema
 ### Distributions
 
 - Binomial distribution
-- Poisson Distribution
+- Poisson distribution
+- Gamma distribution
+- Chi-square distribution
+- Beta distribution
 
 ## Requirements
 
