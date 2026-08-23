@@ -5,20 +5,6 @@ import matplotlib.pyplot as plt
 import math
 
 
-# Examples
-
-# mu = 2
-
-# P(X = k)
-# print(poisson.pmf(0, mu))
-
-# P(X <= k)
-# print(poisson.cdf(0, mu))
-
-# P(X >= 1)
-# print(1 - poisson.cdf(0, mu))
-
-
 def plot_poisson(mu):
     """Plot the probability mass function of a Poisson(mu) distribution."""
     
@@ -41,3 +27,16 @@ def plot_poisson(mu):
 if __name__ == "__main__":
     for mu in [1, 2, 5, 10, 20, 50, 100]:
         plot_poisson(mu)
+        
+        
+# Examples
+
+# mu = 2
+# P(X = k)
+# print(poisson.pmf(0, mu))
+# P(X <= k)
+# print(poisson.cdf(0, mu))
+# P(X >= 1)
+# print(1 - poisson.cdf(0, mu))
+# print(poisson.cdf(2, 3))
+# print(poisson.pmf(3,3))

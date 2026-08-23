@@ -29,3 +29,16 @@ if __name__ == "__main__":
     # Experiments
     for nu in [1, 2, 3, 5, 10, 20, 50, 100]:
         plot_chi_square(nu)
+        
+# Examples
+
+# nu = 12
+
+# P(X <= x)
+# print(chi2.cdf(5.23, df=nu))
+
+# P(X > x)
+# print(1 - chi2.cdf(5.23, df=nu))
+
+# x such that P(X <= x) = p
+# print(chi2.ppf(0.05, df=nu))
