@@ -31,7 +31,7 @@ if __name__ == "__main__":
         plot_chi_square(nu)
         
 # Example 1
-# nu = 12
+#nu = 12
 
 # P(X <= x)
 # print(chi2.cdf(5.23, df=nu))
@@ -45,8 +45,22 @@ if __name__ == "__main__":
 
 
 # Example 2
-# nu = 5
+#nu = 5
 
 # find c and d such that P(c < X < d) = 0.95 and P(X < c) = 0.025
 #print(chi2.ppf(0.025,df=nu))
 #print(chi2.ppf(0.975,df=nu))
+
+
+
+# Example 3
+#nu = 6
+
+# Y ~ chi(nu)
+# find P(1.64 < Y < 12.6)
+#print(chi2.cdf(12.6,df=nu) - chi2.cdf(1.64,df=nu))
+
+
+
+
+
