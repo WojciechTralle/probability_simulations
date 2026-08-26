@@ -30,8 +30,7 @@ if __name__ == "__main__":
     for nu in [1, 2, 3, 5, 10, 20, 50, 100]:
         plot_chi_square(nu)
         
-# Examples
-
+# Example 1
 # nu = 12
 
 # P(X <= x)
@@ -42,3 +41,12 @@ if __name__ == "__main__":
 
 # x such that P(X <= x) = p
 # print(chi2.ppf(0.05, df=nu))
+
+
+
+# Example 2
+# nu = 5
+
+# find c and d such that P(c < X < d) = 0.95 and P(X < c) = 0.025
+#print(chi2.ppf(0.025,df=nu))
+#print(chi2.ppf(0.975,df=nu))
