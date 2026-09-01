@@ -60,6 +60,11 @@ if __name__ == "__main__":
 # find P(1.64 < Y < 12.6)
 #print(chi2.cdf(12.6,df=nu) - chi2.cdf(1.64,df=nu))
 
+# Example 4
+nu = 4
+# find P(X < 9.49) = P(X <= 9.49)
+print(chi2.cdf(9.49, nu))
+
 
 
 
